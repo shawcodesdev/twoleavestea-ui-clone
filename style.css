@@ -1,0 +1,79 @@
+:root{
+     /* Colors */
+    --brand-color: #2a2857;
+    --color-accent: #ffb500;
+    --color-accent-alpha: rgba(255, 181, 0, 0.08);
+    --color-accent-hover: #cc9100;
+    --color-accent-2: #c0dbff;
+    --color-accent-2-darker: #8dbeff;
+    --color-accent-3: #c1e4f8;
+    --color-accent-3-darker: #93d0f3;
+    --color-accent-4: #71b2fc;
+    --color-accent-4-darker: #3f97fb;
+    --color-body-text: #201c1a;
+    --color-body-text-alpha: rgba(32, 28, 26, 0.5);
+    --color-white: #fbf9eb;
+    --color-off-white: #f5f4f3;
+    --color-black: #201c1a;
+}
+
+@font-face {
+  font-family: reckless;
+  src: url(./assets/fonts/RecklessCondensedS-TRIAL-Book.woff) format(woff);
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: figtree;
+  src: url(./assets/fonts/figtree_n4.3c0838aba1701047e60be6a99a1b0a40ce9b8419.woff2) format(woff2);
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Group Roboto Mono weights under one family */
+@font-face {
+  font-family: "Roboto Mono";
+  src: url("./assets/fonts/RobotoMono-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto Mono";
+  src: url("./assets/fonts/RobotoMono-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Group Midnight weights under one family so CSS selects by weight/style */
+@font-face {
+  font-family: "Midnight";
+  src: url("./assets/fonts/midnight-sans-rd-12-medium-trial.otf") format("opentype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Midnight";
+  src: url("./assets/fonts/midnight-sans-rd-12-semibold-trial.otf") format("opentype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
